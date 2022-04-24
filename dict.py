@@ -17,3 +17,18 @@ print(words['pasta']) #會印出義大利麵
 #字典新增一組key-value pair
 words['tea'] = '茶'
 print(words['tea'])
+
+#字典範例2
+#清單與字典的混用
+p0 = {
+    'name': '麥香奶茶'
+    'price': '10'
+}
+p1 = {
+    'name:': '珍珠奶茶'
+    'price': '60'
+}
+
+drinks = [p0, p1] #drinks是一個清單
+drinks[0]['name'] # '麥香奶茶'- drinks[0]是指p0字典,所以後面又可以用查詢的功能去查出p0的name是什麼值
+drinks[1]['price'] # 60
